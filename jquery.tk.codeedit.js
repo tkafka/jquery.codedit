@@ -10,7 +10,7 @@
 		var $this = $(this);
 
 		$this.each(function() {
-			this.keydown(function (e) {
+			$this.keydown(function (e) {
 
 				if (e.keyCode == 9) { // tab
 					var insertedToken = "\t",
